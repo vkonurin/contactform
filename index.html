@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>Contact form</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/theme_default_validate.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/validate_fields.js"></script>
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="container">
+            <div class="row form_container">
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 left_block">
+                    <div class="row header_text">
+                        <div class="title">Contact us</div>
+                        <p>Phasellus posuere ante id erat sagittis laoreet porttitor site amet diam. Cras luctus non diam non malesuada. Vivamus utemi sem et nisl fermentum lacinia eget a ante. Duis posuere malesuada magna, non vehicula urna placerat vitae.</p>
+                    </div>
+                    <form class="fofm" id="feedback-form" action="">
+                        <div class="div_form">
+                            <label class="title" for="txtname">your name</label>
+                            <input type="text" data-validation="length" data-validation-length="min4" required="" id="txtname" name="txtname">
+                            <div class="error-box"></div>
+                        </div>
+                        <div class="div_form">
+                            <label class="title" for="txtemail">your email</label>
+                            <input type="email" data-validation="email" id="txtemail" name="txtemail">
+                            <div class="error-box"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <label class="title" for="txtmessage">your message</label>
+                        <textarea id="txtmessage" required="" name="txtmessage" rows="6"></textarea>
+                        <div class="error-box"></div>
+                        <input type="submit" class="button" value="Send" name="btnsend">
+                    </form>
+                    <div class="form_message">
+
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 right_block">
+                    <div class="google_map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10162.66988283149!2d30.524950899999997!3d50.44729425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1451904423901" width="270" height="230" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="title">contact info</div>
+                    <ul>
+                        <li>Fruitful Code, Company Inc.</li>
+                        <li>12589 Main Street</li>
+                        <li>Visitacion Valley - San Francisco, USA</li>
+                    </ul>
+                    <ul>
+                        <li>Phone: (+38) 2407075215</li>
+                        <li>E-mail: <a href="mailto:mail@fruitfulcode.com">mail@fruitfulcode.com</a></li>
+                        <li>Web: <a href="http://www.fruitfulcode.com/">www.fruitfulcode.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+
+    </script>
+</body>
+</html>
